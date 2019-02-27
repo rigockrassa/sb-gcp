@@ -68,9 +68,7 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>1.3.2</version>
 				<configuration>
-					<project>
-						angular-glyph-187013
-					</project>
+					<project>ocrpwc</project>
 				</configuration>
 			</plugin>
 		</plugins>

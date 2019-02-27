@@ -16,4 +16,4 @@ health_check:
   healthy_threshold: 1
 
 env_variables:
-  SPRING_DATA_MONGODB_URI: mongodb://10.156.0.3:27017,10.156.0.6:27017,10.156.0.5:27017/test?replicaSet=rs0
+  SPRING_DATA_MONGODB_URI: mongodb://Ockrassa:${spring.data.mongodb.password}@gameockrassa-shard-00-00-yze05.gcp.mongodb.net:27017,gameockrassa-shard-00-01-yze05.gcp.mongodb.net:27017,gameockrassa-shard-00-02-yze05.gcp.mongodb.net:27017/test?ssl=true&replicaSet=GameOckrassa-shard-0&authSource=admin&retryWrites=true

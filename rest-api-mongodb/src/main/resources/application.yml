@@ -4,7 +4,8 @@ spring:
     
   data:
     mongodb:
-      uri: mongodb://localhost:27017/test
+      password: rigo904490mdb
+      uri: mongodb://Ockrassa:${spring.data.mongodb.password}@gameockrassa-shard-00-00-yze05.gcp.mongodb.net:27017,gameockrassa-shard-00-01-yze05.gcp.mongodb.net:27017,gameockrassa-shard-00-02-yze05.gcp.mongodb.net:27017/test?ssl=true&replicaSet=GameOckrassa-shard-0&authSource=admin&retryWrites=true
     rest:
       base-path: /api
     
